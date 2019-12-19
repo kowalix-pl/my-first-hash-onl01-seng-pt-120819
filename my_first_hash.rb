@@ -5,8 +5,8 @@ end
 
 def shipping_manifest
   
-  my_manifest ={}
-  my_manifest = {"whale bone corsets" => 5,"porcelain vases" => 2, "oil paintings" => 3}
+  the_manifest ={}
+  the_manifest = {"whale bone corsets" => 5,"porcelain vases" => 2, "oil paintings" => 3}
 end
 
 def retrieval
@@ -16,7 +16,7 @@ def retrieval
                   "oil paintings" => 3
                  }
 
-  shipping_manifest[oil paintings]
+  shipping_manifest["oil paintings"]
 
 end
 
